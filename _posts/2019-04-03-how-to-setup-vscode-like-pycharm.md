@@ -19,9 +19,7 @@ My extensions:
 2. Sublime Material Theme
 3. autoDocstring
    Used to highlight #TODO
-4. Spell right
-   For plain text and markdown
-5. Markdown All in One
+4. Markdown All in One
 
 My settings.json:
 ---------------------
