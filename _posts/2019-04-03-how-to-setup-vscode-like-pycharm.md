@@ -27,30 +27,27 @@ My settings.json:
 {
     "workbench.colorTheme": "Sublime Material Theme - Dark",
     "files.autoSave": "afterDelay",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "git.autofetch": true,
+    "python.pythonPath": "C:\\Users\\xxx\\Anaconda3\\python.exe",
     "python.autoComplete.addBrackets": true,
     "python.autoComplete.showAdvancedMembers": true,
     "python.formatting.provider":"autopep8",
     "python.formatting.autopep8Args": [
         "--max-line-length", "120", "--experimental"
     ],
-    "python.linting.pep8Enabled": false,
+    "python.linting.pep8Enabled": true,
     "python.linting.pep8Args": [
         "--ignore=E301,E501,E266"
     ],
-    "python.linting.pylintEnabled": false,
-    "python.linting.pylintArgs": [
-    "--enable=W0614"
-    ],
-    "autoDocstring.docstringFormat":"numpy",
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
     "editor.cursorBlinking": "expand",
     "editor.renderWhitespace": "none",
     "editor.formatOnSaveTimeout": 1500,
     "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
-    "python.pythonPath": "C:\\Users\\joyin\\Anaconda3\\python.exe",
-    "python.dataScience.sendSelectionToInteractiveWindow": true,
+
+    "autoDocstring.docstringFormat":"numpy",
+
 "[markdown]": {
     "editor.quickSuggestions": true,
     "editor.wordBasedSuggestions": true
