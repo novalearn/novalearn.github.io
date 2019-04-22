@@ -16,10 +16,12 @@ My extensions:
 ---------------
 
 1. Python
-2. Sublime Material Theme
-3. autoDocstring
-   Used to highlight #TODO
-4. Markdown All in One
+2. GitLens
+3. Python Indent
+4. Better Comments
+5. autoDocstring
+6. Sublime Material Theme
+7. Markdown All in One
 
 My settings.json:
 ---------------------
@@ -29,24 +31,33 @@ My settings.json:
     "files.autoSave": "afterDelay",
     "git.autofetch": true,
     "python.pythonPath": "C:\\Users\\xxx\\Anaconda3\\python.exe",
-    "python.autoComplete.addBrackets": true,
+    "python.autoComplete.addBrackets": false,
     "python.autoComplete.showAdvancedMembers": true,
+    "python.autoComplete.extraPaths": [
+        "X:/PYLON_Installations/pylon/src/pylon/",
+        "C:/Users/zhu/Program/Continuum/anaconda3/"
+    ],
     "python.formatting.provider":"autopep8",
     "python.formatting.autopep8Args": [
         "--max-line-length", "120", "--experimental"
     ],
+    "python.linting.enabled": false,
     "python.linting.pep8Enabled": true,
     "python.linting.pep8Args": [
-        "--ignore=E301,E501,E266"
+        "--ignore=E301,E501,E225,E266,E265,E231,W293"
     ],
-    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+    "--enable=W0614"
+    ],
+    "autoDocstring.docstringFormat":"numpy",
+    "files.autoSave":"off",
     "editor.cursorBlinking": "expand",
     "editor.renderWhitespace": "none",
-    "editor.formatOnSaveTimeout": 1500,
-    "editor.formatOnPaste": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-
-    "autoDocstring.docstringFormat":"numpy",
+    "editor.formatOnPaste": false,
+    "editor.quickSuggestionsDelay": 10,
+    "python.jediEnabled": false,
+    "python.dataScience.sendSelectionToInteractiveWindow": true
 
 "[markdown]": {
     "editor.quickSuggestions": true,
