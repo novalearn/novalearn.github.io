@@ -30,12 +30,11 @@ My settings.json:
     "workbench.colorTheme": "Sublime Material Theme - Dark",
     "files.autoSave": "afterDelay",
     "git.autofetch": true,
-    "python.pythonPath": "C:\\Users\\xxx\\Anaconda3\\python.exe",
+    "python.pythonPath": "C:\\xxx\\Anaconda3\\python.exe",
     "python.autoComplete.addBrackets": false,
     "python.autoComplete.showAdvancedMembers": true,
     "python.autoComplete.extraPaths": [
-        "X:/PYLON_Installations/pylon/src/pylon/",
-        "C:/Users/zhu/Program/Continuum/anaconda3/"
+        "C:\\xxx\\Program\\Continuum\\anaconda3\\"
     ],
     "python.formatting.provider":"autopep8",
     "python.formatting.autopep8Args": [
