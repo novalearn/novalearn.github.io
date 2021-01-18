@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "mint" # "default" # "air", "aqua", "contrast", "dark
 locale                   : "en-US"
 title                    : "NovaLearn"
 title_separator          : "-"
-name                     : "Joey"
+name                     : "Joe Hu"
 description              : "An amazing website."
 url                      : "https://novalearn.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -100,11 +100,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Joey"
+  name             : "Joe Hu"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Have fun in the data era"
-  location         : "All over NY and MA"
-  email            :
+  bio              : "Lifelong learning is fun"
+  location         : "Boston"
+  email            : "joe7hu <at> gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -266,6 +266,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
