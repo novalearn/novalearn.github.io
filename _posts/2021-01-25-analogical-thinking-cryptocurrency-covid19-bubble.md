@@ -24,6 +24,7 @@ But will the crypto’s market value continue to grow exponentially?  After all,
 
 COVID19 has redefined our world, and so will the crypto. The ideology of decentralization is as revolutionary as how we built our societies. Fully decentralization seems like a utopia. Distributed ledger technology might be a more scientific and pragmatic paradigm to pursue. The crypto ecosystem is really a test field for global-scale financial and societal experiments that have never been done before.  Many ideas under trials will either be materialized in its original form, or adopted by the big techs or circumscribed by the government regulations. The new era is yet to be defined. But over financialization of our society and the younger generation grown up in a deeply digitalized world are the significant forces towards virtualization and decentralization. It might take a long time until then. But the impact will be lasting and unprecedented.
 
-
+---
+Thanks Tracy and Josh for revision and editing!
     
     
